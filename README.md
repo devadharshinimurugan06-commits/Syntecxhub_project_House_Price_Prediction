@@ -91,3 +91,52 @@ Property_Type
 Parking_Spaces
 Garden_Available
 Distance_To_City_Center_Km
+
+Training Data : 5600 rows
+Testing Data  : 1401 rows
+
+⚙️ Data Preprocessing
+
+Different preprocessing techniques were applied according to the feature type.
+
+Numerical Features
+
+Missing numerical values were handled using median imputation.
+
+Categorical Features
+
+Missing categorical values were handled using most-frequent imputation.
+
+🤖 Machine Learning Model
+Linear Regression
+
+The project uses Linear Regression for house price prediction.
+
+Linear Regression was selected because the Syntexchub Project 1 task specifies training a Linear Regression model for house price prediction.
+
+📈 Model Evaluation
+
+The trained model was evaluated on the test dataset.
+
+Results
+Metric	Result
+R² Score	0.9351
+RMSE	₹35,131.15
+
+The model achieved an R² score of 0.9351 on the test dataset, indicating that the model captures a large proportion of the variation in house prices.
+
+The RMSE of ₹35,131.15 represents the root mean squared prediction error on the test dataset.
+🌐 Streamlit Application
+
+A Streamlit application was created to provide an interactive interface for house price prediction.
+
+The application allows users to enter property details and receive an estimated house price.
+
+Application Features
+🏠 House price prediction
+📝 Property input form
+🔽 Dropdown selections
+🔮 Prediction button
+💰 Estimated house price
+📊 Model performance information
+📋 Display of entered property details..
